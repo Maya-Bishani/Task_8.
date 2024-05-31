@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    flex-wrap: wrap;
+
+}
+.container .card1 , .container .card2{
+    box-shadow: 1px 1px 1px 1px rgb(187, 183, 183);
+   padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 25px;
+    width: 590px;
+    height: 450px;
+    margin: 10px;
+    
+   
+}
+.maya{
+    display: flex;
+
+}
+.container .card1 h1{
+    border-bottom: 3px solid orange;
+    margin-bottom: 7px;
+    width: 160px;
+}
+
+.blod-font{
+    font-weight: bold;
+    font-size: larger;
+}
+.gray-font{
+    color: gray;
+}
+.font-wieght{
+    font-weight: 1000;
+}
+.heading{
+    text-align: center;
+    margin: 30px;
+}
+
+.brandingpattren img{
+    width: 300px;
+}
+
+
+.container .card2 h1{
+    border-bottom: 3px solid purple;
+    width: 160px;
+    margin-bottom:7px ;
+}
+@media(max-width:768px){
+    .container .card1 , .container .card2{
+        flex-direction: column;
+       margin: 20px 0;
+        height: 700px;
+        width: 100%;
+
+    }
+    
+}
+@media(max-width:380px){
+    .container .card1 , .container .card2{
+        height: 800px !important;
+       
+    }
+    .brandingorange , .markrtingpattren{
+        width: 150px;
+    }
+}
+   

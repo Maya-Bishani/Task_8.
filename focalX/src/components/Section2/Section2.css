@@ -1,0 +1,172 @@
+.section2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.section2 h1{
+    margin-bottom: 30px;
+}
+.container-section2{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+    
+
+}
+.basic , .pro , .business , .enterprise{
+    width: 300x;
+    height: 430px;
+    background-color: white;
+    border-radius: 20px ;
+    color: black;
+    text-align: left;
+    line-height: 25px;
+    
+}
+
+.orange{
+    width: 100%;
+    background-color: orange;
+    height: 40px;
+   border-radius: 20px 20px 0px 0px ;
+}
+.information{
+    padding-left: 10px;
+}
+.information h1  ,.business h1{
+    margin: 8px 0;
+}
+.larger-font{
+    font-weight:1000 ;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.border-orange{
+    border: 1px solid orange;
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    padding: 7px;
+}
+.purpel{
+    width: 100%;
+    background-color: purple;
+    height: 40px;
+   border-radius: 20px 20px 0px 0px ;
+
+}
+.border-purpel{
+    border: 1px solid purple;
+    text-align: center;
+    color:purple;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    padding: 7px;
+}
+.green{
+    width: 100%;
+    background-color: green;
+    height: 40px;
+   border-radius: 20px 20px 0px 0px ;
+ 
+}
+.information-business , .business h1 , .business p{
+    padding-left: 10px;
+}
+.width{
+    width: 200px;
+}
+.border-green{
+    border: 1px solid green;
+    text-align: center;
+    color:green;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    padding: 7px;
+   
+}
+.text-right{
+    text-align: right;
+}
+.blue{
+    width: 100%;
+    background-color:blue;
+    height: 40px;
+   border-radius: 20px 20px 0px 0px ;
+}
+.border-blue{
+    border: 1px solid  blue;
+    text-align: center;
+    color:blue;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    padding:7px;
+   
+}
+.b{
+    width: 200px;
+}
+.test{
+    display: flex;
+    justify-content: space-between;
+}
+.title-section2{
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media(max-width: 1200px ) and ( min-width: 992px){
+    .basic , .pro , .business{
+        margin: 10px;
+    }
+
+}
+@media(max-width: 992px ) and ( min-width: 768px){
+    .basic , .pro , .business{
+        margin: 10px;
+        
+    }
+    .test{
+        flex-wrap: wrap;
+    }
+   
+
+}
+@media (max-width : 768px){
+    .basic , .pro , .business , .enterprise{
+        margin: 10px;
+       
+    }
+    .test{
+        flex-wrap: wrap;
+    }
+    .title-section2{
+       
+        margin: 0px;
+    }
+    
+}
+@media(max-width:420px){
+    .container-section2{
+        justify-content: center;
+        align-items: center;
+    }
+    .basic , .pro , .business , .enterprise{
+       
+        height: 600px;
+        width: 300px;
+       
+
+    }
+}
